@@ -1,0 +1,14 @@
+//UmbraSpaceIndustries
+
+@PART[MKS_HubAntenna]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 5500000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+ProgressFxModules = 1
+}
+}
