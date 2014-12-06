@@ -1,0 +1,10 @@
+@PART[bladeAntenna]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 1250000
+maxPowerFactor = 8
+maxDataFactor = 4
+}
+}
