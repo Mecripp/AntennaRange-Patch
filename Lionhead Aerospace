@@ -1,0 +1,118 @@
+// Lionhead Aerospace By Yogui87
+
+@PART[LH_Hermes]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 30000000000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+ProgressFxModules = 1
+}
+}
+
+@PART[LH_Kerbnik]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 2500000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+ProgressFxModules = 1
+}
+}
+
+@PART[LH_MunarOrbiter]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 25000000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+ProgressFxModules = 1
+}
+}
+
+@PART[LH_Zeus]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 25000000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+ProgressFxModules = 1
+}
+}
+
+@PART[LH_EveraPod]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 2500000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+ProgressFxModules = 1
+}
+}
+
+@PART[EveraOrbiter]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 2500000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+ProgressFxModules = 1
+}
+}
+
+@PART[DSL_Pod]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 2500000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+ProgressFxModules = 1
+}
+}
+
+@PART[LH_Atlas]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 30000000000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+ProgressFxModules = 1
+}
+}
+
+@PART[LH_AtlasLander]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 2500000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+ProgressFxModules = 1
+}
+}
