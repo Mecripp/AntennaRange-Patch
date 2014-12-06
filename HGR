@@ -1,0 +1,14 @@
+//HGR
+
+@PART[HGRSolarPanels1]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 1250000
+maxPowerFactor = 8
+maxDataFactor = 4
+packetResourceCost = 10.0
+requiredResource = ElectricCharge
+}
+}
