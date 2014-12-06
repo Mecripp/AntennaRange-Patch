@@ -1,0 +1,112 @@
+// AIES By Carmics
+
+@PART[Antennacomtec1]:FOR[AntennaRange]
+{
+MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 4500000
+maxPowerFactor = 8
+maxDataFactor = 4
+}
+}
+
+@PART[Antennacomtec2]:FOR[AntennaRange]
+{
+MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 8000000
+maxPowerFactor = 8
+maxDataFactor = 4
+}
+}
+
+@PART[Antennaesc]:FOR[AntennaRange]
+{
+MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 3000000
+maxPowerFactor = 8
+maxDataFactor = 4
+}
+}
+
+@PART[Antennaexpatvr2]:FOR[AntennaRange]
+{
+MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 4500000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+}
+}
+
+@PART[AntennaDF2]:FOR[AntennaRange]
+{
+MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 250000
+maxPowerFactor = 8
+maxDataFactor = 4
+}
+}
+
+@PART[Dishcl1]:FOR[AntennaRange]
+{
+MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 45000000
+maxPowerFactor = 8
+maxDataFactor = 4
+}
+}
+
+@PART[Dishmccomu]:FOR[AntennaRange]
+{
+MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 30000000000
+maxPowerFactor = 8
+maxDataFactor = 4
+}
+}
+
+@PART[dishcomlar1]:FOR[AntennaRange]
+{
+MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 200000000000
+maxPowerFactor = 8
+maxDataFactor = 4
+}
+}
+
+@PART[Dishomega2g]:FOR[AntennaRange]
+{
+MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 30000000000
+maxPowerFactor = 8
+maxDataFactor = 4
+}
+}
+
+@PART[Dishpcf]:FOR[AntennaRange]
+{
+MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 22500000000
+maxPowerFactor = 8
+maxDataFactor = 4
+}
+}
