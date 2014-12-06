@@ -1,0 +1,22 @@
+@PART[rpwsAnt]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 3250000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+}
+}
+@PART[USRPWS]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 3250000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+}
+}
