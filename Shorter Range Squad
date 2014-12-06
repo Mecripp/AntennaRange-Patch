@@ -1,0 +1,51 @@
+// Some More Squad
+
+@PART[avionicsNoseCone]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 1250000
+maxPowerFactor = 8
+maxDataFactor = 4
+packetResourceCost = 10.0
+requiredResource = ElectricCharge
+}
+}
+
+@PART[longAntenna]:AFTER[AntennaRange]
+{
+@MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 1250000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+}
+}
+
+@PART[mediumDishAntenna]:AFTER[AntennaRange]
+{
+@MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 15000000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+ProgressFxModules = 1
+}
+}
+
+@PART[commDish]:AFTER[AntennaRange]
+{
+@MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 40000000000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+}
+}
