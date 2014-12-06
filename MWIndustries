@@ -1,0 +1,40 @@
+// MWIndustries
+
+@PART[MWIAntennaRotateMK2]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 2500000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+ProgressFxModules = 1
+}
+}
+
+@PART[MWIAntennaRotateMK3]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 3500000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+ProgressFxModules = 1
+}
+}
+
+@PART[MWITransmitterHeavy]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 1500000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+ProgressFxModules = 1
+}
+}
