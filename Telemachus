@@ -1,0 +1,25 @@
+// Telemachus By Rich
+
+@PART[fustekAntenna]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 15000000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+ProgressFxModules = 1
+}
+}
+
+@PART[ant]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 3000000
+maxPowerFactor = 8
+maxDataFactor = 4
+}
+}
