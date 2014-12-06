@@ -1,0 +1,25 @@
+//Tantares
+
+@PART[Libra_AntennaModule_1]:FOR[AntennaRange]
+{
+MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 1500000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+}
+}
+
+@PART[Tantares_AntennaModule_1]:FOR[AntennaRange]
+{
+MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 1500000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+}
+}
