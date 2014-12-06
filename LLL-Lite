@@ -1,0 +1,25 @@
+// LLL-Lite By Lack
+
+@PART[LLLCommPole]:FOR[AntennaRange]
+{
+MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 2500000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+}
+}
+
+@PART[Commtow]:FOR[AntennaRange]
+{
+MODULE[ModuleDataTransmitter]
+{
+name = ModuleLimitedDataTransmitter
+nominalRange = 2500000
+maxPowerFactor = 8
+maxDataFactor = 4
+DeployFxModules = 0
+}
+}
