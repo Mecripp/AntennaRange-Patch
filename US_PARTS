@@ -1,0 +1,20 @@
+//US_PARTS
+
+@PART[US_R200_EVA_EVAX]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 5000
+maxPowerFactor = 8
+maxDataFactor = 4
+packetResourceCost = 10.0
+requiredResource = ElectricCharge
+}
+RESOURCE
+{
+name = ElectricCharge
+amount = 200
+maxAmount = 200
+}
+}
