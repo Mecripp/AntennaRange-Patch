@@ -1,0 +1,14 @@
+// NovaPunch By NovaSilisko | Tiberion
+
+@PART[NP_ThorLanderRCS]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 1500
+maxPowerFactor = 8
+maxDataFactor = 4
+packetResourceCost = 10.0
+requiredResource = ElectricCharge
+}
+}
