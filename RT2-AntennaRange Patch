@@ -1,0 +1,122 @@
+// RemoteTech2 To AntennaRange
+
+@PART[RTShortAntenna1]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 1250000
+maxPowerFactor = 8
+maxDataFactor = 4
+packetResourceCost = 10.0
+requiredResource = ElectricCharge
+}
+}
+
+@PART[RTLongAntenna2]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 2500000
+maxPowerFactor = 8
+maxDataFactor = 4
+packetResourceCost = 10.0
+requiredResource = ElectricCharge
+DeployFxModules = 0
+}
+}
+
+@PART[RTLongAntenna3]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 1500000
+maxPowerFactor = 8
+maxDataFactor = 4
+packetResourceCost = 10.0
+requiredResource = ElectricCharge
+DeployFxModules = 0
+}
+}
+
+@PART[RTShortDish1]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 45000000
+maxPowerFactor = 8
+maxDataFactor = 4
+packetResourceCost = 15.0
+requiredResource = ElectricCharge
+}
+}
+
+@PART[RTShortDish2]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 45000000
+maxPowerFactor = 8
+maxDataFactor = 4
+packetResourceCost = 15.0
+requiredResource = ElectricCharge
+}
+}
+
+@PART[RTLongDish1]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 300000000000
+maxPowerFactor = 8
+maxDataFactor = 4
+packetResourceCost = 20.0
+requiredResource = ElectricCharge
+}
+}
+
+@PART[RTLongDish2]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 30000000000
+maxPowerFactor = 8
+maxDataFactor = 4
+packetResourceCost = 20.0
+requiredResource = ElectricCharge
+}
+}
+
+@PART[RTGigaDish1]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 200000000000
+maxPowerFactor = 8
+maxDataFactor = 4
+packetResourceCost = 20.0
+requiredResource = ElectricCharge
+DeployFxModules = 0
+}
+}
+
+@PART[RTGigaDish2]:FOR[AntennaRange]
+{
+%MODULE[ModuleDataTransmitter]
+{
+%name = ModuleLimitedDataTransmitter
+nominalRange = 175000000000
+maxPowerFactor = 8
+maxDataFactor = 4
+packetResourceCost = 20.0
+requiredResource = ElectricCharge
+}
+}
+
