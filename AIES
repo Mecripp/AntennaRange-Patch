@@ -2,9 +2,9 @@
 
 @PART[Antennacomtec1]:FOR[AntennaRange]
 {
-%MODULE[ModuleDataTransmitter]
+@MODULE[ModuleDataTransmitter]
 {
-%name = ModuleLimitedDataTransmitter
+@name = ModuleLimitedDataTransmitter
 nominalRange = 4500000
 maxPowerFactor = 8
 maxDataFactor = 4
@@ -15,7 +15,7 @@ maxDataFactor = 4
 {
 %MODULE[ModuleDataTransmitter]
 {
-%name = ModuleLimitedDataTransmitter
+@name = ModuleLimitedDataTransmitter
 nominalRange = 8000000
 maxPowerFactor = 8
 maxDataFactor = 4
@@ -24,7 +24,7 @@ maxDataFactor = 4
 
 @PART[Antennaesc]:FOR[AntennaRange]
 {
-%MODULE[ModuleDataTransmitter]
+@MODULE[ModuleDataTransmitter]
 {
 %name = ModuleLimitedDataTransmitter
 nominalRange = 3000000
@@ -37,7 +37,7 @@ maxDataFactor = 4
 {
 %MODULE[ModuleDataTransmitter]
 {
-%name = ModuleLimitedDataTransmitter
+@name = ModuleLimitedDataTransmitter
 nominalRange = 4500000
 maxPowerFactor = 8
 maxDataFactor = 4
