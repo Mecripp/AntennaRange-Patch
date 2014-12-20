@@ -2,9 +2,9 @@
 
 @PART[LM_Antenna]:FOR[AntennaRange]
 {
-MODULE[ModuleDataTransmitter]
+%MODULE[ModuleDataTransmitter]
 {
-name = ModuleLimitedDataTransmitter
+%name = ModuleLimitedDataTransmitter
 nominalRange = 25000000
 maxPowerFactor = 8
 maxDataFactor = 4
@@ -15,9 +15,9 @@ ProgressFxModules = 1
 
 @PART[FASAExplorerProbe]:FOR[AntennaRange]
 {
-MODULE[ModuleDataTransmitter]
+%MODULE[ModuleDataTransmitter]
 {
-name = ModuleLimitedDataTransmitter
+%name = ModuleLimitedDataTransmitter
 nominalRange = 500000
 maxPowerFactor = 8
 maxDataFactor = 4
@@ -27,9 +27,9 @@ DeployFxModules = 0
 
 @PART[FASAAgenaAnt]:FOR[AntennaRange]
 {
-MODULE[ModuleDataTransmitter]
+%MODULE[ModuleDataTransmitter]
 {
-name = ModuleLimitedDataTransmitter
+%name = ModuleLimitedDataTransmitter
 nominalRange = 2500000
 maxPowerFactor = 8
 maxDataFactor = 4
@@ -39,9 +39,9 @@ DeployFxModules = 0
 
 @PART[FASAGeminiAntenna]:FOR[AntennaRange]
 {
-MODULE[ModuleDataTransmitter]
+%MODULE[ModuleDataTransmitter]
 {
-name = ModuleLimitedDataTransmitter
+%name = ModuleLimitedDataTransmitter
 nominalRange = 2500000
 maxPowerFactor = 8
 maxDataFactor = 4
@@ -52,9 +52,9 @@ ProgressFxModules = 1
 
 @PART[FASALM_Antenna]:FOR[AntennaRange]
 {
-MODULE[ModuleDataTransmitter]
+%MODULE[ModuleDataTransmitter]
 {
-name = ModuleLimitedDataTransmitter
+%name = ModuleLimitedDataTransmitter
 nominalRange = 2500000
 maxPowerFactor = 8
 maxDataFactor = 4
@@ -65,9 +65,9 @@ ProgressFxModules = 1
 
 @PART[Apollo_SM_Dish]:FOR[AntennaRange]
 {
-MODULE[ModuleDataTransmitter]
+%MODULE[ModuleDataTransmitter]
 {
-name = ModuleLimitedDataTransmitter
+%name = ModuleLimitedDataTransmitter
 nominalRange = 25000000
 maxPowerFactor = 8
 maxDataFactor = 4
